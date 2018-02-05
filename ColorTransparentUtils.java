@@ -1,5 +1,10 @@
 
 import android.util.Log;
+
+/**
+ * Created by Hemant chand on 05/07/17.
+ */
+
 public class ColorTransparentUtils {
 	
 	// This default color int
