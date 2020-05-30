@@ -21,45 +21,10 @@ public class ColorTransparentUtils {
 		return (hexString.length()<2 ? "0" : "") + hexString;
 	}
 	
-	public static String transparentColor10(int colorCode) {
-		return convertIntoColor(colorCode,10);
+	public static String transparentColor(int colorCode,int trans) {
+		return convertIntoColor(colorCode,trans);
 	}
 	
-	public static String transparentColor20(int colorCode) {
-		return convertIntoColor(colorCode,20);
-	}
-	
-	public static String transparentColor30(int colorCode) {
-		return convertIntoColor(colorCode,30);
-	}
-	
-	public static String transparentColor40(int colorCode) {
-		return convertIntoColor(colorCode,40);
-	}
-	
-	public static String transparentColor50(int colorCode) {
-		return convertIntoColor(colorCode,50);
-	}
-	
-	public static String transparentColor60(int colorCode) {
-		return convertIntoColor(colorCode,60);
-	}
-	
-	public static String transparentColor70(int colorCode) {
-		return convertIntoColor(colorCode,70);
-	}
-	
-	public static String transparentColor80(int colorCode) {
-		return convertIntoColor(colorCode,80);
-	}
-	
-	public static String transparentColor90(int colorCode) {
-		return convertIntoColor(colorCode,90);
-	}
-	
-	public static String transparentColor100(int colorCode) {
-		return convertIntoColor(colorCode,100);
-	}
 	
 	/**
 	 * Convert color code into transparent color code
